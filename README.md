@@ -17,6 +17,14 @@ These processes create several challenges:
 - Inconsistent transaction tracking
 - Limited historical data for business analysis
 
+## AS-IS Process Model
+The following process model illustrates the organization's current spreadsheet-based inventory management workflow and highlights the manual activities and process inefficiencies addressed by the proposed system.
+
+**Process Modelling Tool:** Microsoft Visio
+![AS-IS Retail Inventory Management Process](process-models/as-is-process.png)
+
+Detailed AS-IS process documentation is available in [`process-models/as-is-process.md`](process-models/as-is-process.md).
+
 ## Proposed Solution
 The proposed solution is a centralized retail inventory management system that supports:
 
@@ -35,6 +43,7 @@ This repository will include:
 - Business requirements
 - Functional requirements
 - Non-functional requirements
+- Requirements mapping and traceability
 - AS-IS process model
 - TO-BE process model
 - BPMN process diagrams
@@ -60,6 +69,19 @@ This repository will include:
 - REST API concepts
 - JSON
 
-## Project Status
-
-In Progress
+## Project Structure
+```text
+retail-inventory-business-systems-analysis/
+│
+├── README.md
+│
+├── requirements/
+│   ├── business-requirements.md
+│   ├── functional-requirements.md
+│   ├── non-functional-requirements.md
+│   └── requirements-mapping.md
+│
+└── process-models/
+    ├── as-is-process.md
+    ├── as-is-process.png
+    └── to-be-process.md

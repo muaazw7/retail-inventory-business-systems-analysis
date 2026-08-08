@@ -1,2 +1,65 @@
-# retail-inventory-business-systems-analysis
-End-to-end business systems analysis project covering requirements gathering, process modelling, SQL database design, Agile user stories, UAT, and Power BI reporting.
+# Retail Inventory Business Systems Analysis
+
+## Project Overview
+This project demonstrates an end-to-end business systems analysis for a fictional mid-sized retail organization seeking to replace spreadsheet-based inventory processes with a centralized inventory management and reporting solution.
+
+The project covers business requirements, functional and non-functional requirements, process modelling, Agile user stories, acceptance criteria, SQL database design, user acceptance testing, and Power BI reporting.
+
+## Business Problem
+The organization currently manages inventory using spreadsheets and disconnected manual processes. Employees manually update inventory levels, verify product availability, track supplier information, and prepare recurring reports.
+
+These processes create several challenges:
+
+- Limited visibility into current inventory levels
+- Risk of inventory inaccuracies
+- Manual and time-consuming reporting
+- Difficulty identifying low-stock products
+- Inconsistent transaction tracking
+- Limited historical data for business analysis
+
+## Proposed Solution
+The proposed solution is a centralized retail inventory management system that supports:
+
+- Product and inventory management
+- Supplier management
+- Sales transaction tracking
+- Automated inventory updates
+- Low-stock monitoring
+- Historical transaction storage
+- SQL-based reporting
+- Power BI dashboards and KPI reporting
+
+## Business Systems Analysis Deliverables
+This repository will include:
+
+- Business requirements
+- Functional requirements
+- Non-functional requirements
+- AS-IS process model
+- TO-BE process model
+- BPMN process diagrams
+- UML use-case diagram
+- Agile user stories
+- Acceptance criteria
+- SQL database design
+- Entity relationship diagram
+- SQL queries
+- UAT test cases
+- Requirements traceability matrix
+- API documentation
+- Power BI dashboard
+
+## Tools & Technologies
+- Microsoft SQL Server
+- SQL Server Management Studio
+- Power BI
+- Microsoft Excel
+- Microsoft Visio
+- Jira
+- GitHub
+- REST API concepts
+- JSON
+
+## Project Status
+
+In Progress

@@ -38,7 +38,6 @@ The proposed solution is a centralized retail inventory management system that s
 - Power BI dashboards and KPI reporting
 
 ## Business Systems Analysis Deliverables
-This repository will include:
 
 - Business requirements
 - Functional requirements
@@ -48,12 +47,17 @@ This repository will include:
 - TO-BE process model
 - BPMN process diagrams
 - UML use-case diagram
+- Cost-benefit and ROI analysis
 - Agile user stories
 - Acceptance criteria
+- SDLC implementation approach
+- Security risk assessment
+- Security and contingency considerations
 - SQL database design
 - Entity relationship diagram
 - SQL queries
 - UAT test cases
+- Usability testing scenarios
 - Requirements traceability matrix
 - API documentation
 - Power BI dashboard

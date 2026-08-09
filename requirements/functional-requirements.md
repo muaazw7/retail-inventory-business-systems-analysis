@@ -24,14 +24,20 @@ Product-to-supplier relationships shall be maintained separately to support prod
 The system shall maintain the current inventory quantity for each product and update inventory levels when inventory-related transactions occur.
 
 ### FR-03: Sales Transaction Recording
-The system shall allow authorized users to record sales transactions.
+The system shall allow authorized users to record sales transactions containing one or more products.
 
 Each sales transaction shall include:
 - Transaction ID
+- Transaction date
+- User ID
+- Total amount
+
+Each sales transaction item shall include:
 - Product ID
 - Quantity sold
 - Unit price
-- Transaction date
+
+The system shall associate each sales transaction item with its parent sales transaction.
 
 ### FR-04: Automatic Inventory Updates
 The system shall automatically reduce the available inventory quantity when a sales transaction is successfully recorded.

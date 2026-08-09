@@ -15,7 +15,10 @@ Product records shall include:
 - Unit price
 - Current inventory quantity
 - Reorder level
-- Supplier ID
+- Active status
+- Associated supplier(s)
+
+Product-to-supplier relationships shall be maintained separately to support products supplied by one or more suppliers.
 
 ### FR-02: Inventory Tracking
 The system shall maintain the current inventory quantity for each product and update inventory levels when inventory-related transactions occur.

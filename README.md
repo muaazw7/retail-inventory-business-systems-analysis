@@ -25,8 +25,6 @@ These processes create several challenges:
 
 The AS-IS process model documents the organization's current spreadsheet-based inventory workflow and highlights manual activities, process inefficiencies, and opportunities for system improvement.
 
-**Process Modelling Tool:** Microsoft Visio
-
 ![AS-IS Retail Inventory Management Process](process-models/as-is-process.png)
 
 Detailed AS-IS process documentation is available in [`process-models/as-is-process.md`](process-models/as-is-process.md).
@@ -155,7 +153,6 @@ The analysis is documented in:
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
-- Microsoft Visio
 - GitHub
 - SQL
 - Markdown
